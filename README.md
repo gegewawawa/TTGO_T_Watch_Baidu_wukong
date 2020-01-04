@@ -64,3 +64,6 @@ https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/ <br/>
 <br/>
 <b>声音数据:</b> <br/>
 16khz 16位 wav数据，经测试，此格式下百度文字识别效果最合适  8khz 8位wav 格式识别效果很差<br/>
+<br/>
+<b>演示视频地址:</b><br/>
+<a href="https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/raw/master/VID_20200104_124938.avi">https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/raw/master/VID_20200104_124938.avi</a>
