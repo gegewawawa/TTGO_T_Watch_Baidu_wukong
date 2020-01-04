@@ -1,11 +1,13 @@
 <b>程序功能：</b> <br/>
  声音监听器。监听周围的声音，并识别成文字。识别的文字发给树莓派制作的智能音箱wukong<br/>
          每段录音最长20秒,平均一段录音的文字识别时间3-25秒，取决于网络速度<br/>
+  <br/>
 <b>硬件：</b> <br/>
     TTGO_T_Watch 主板自带有8M PSRAM, 扩展板有多种，有一种扩展板带INMP441 I2S 麦克风录入芯片, 极适合处理语音,就用此扩展板做开发用.<br/>
          源码硬件资料: https:github.com/LilyGO/TTGO-T-Watch<br/>
          介绍指南:          https:t-watch-document-en.readthedocs.io/en/latest/index.html<br/>
          玩家对其介绍:   https:www.instructables.com/id/TTGO-T-Watch/<br/>
+ <br/>
 <b>编译环境:</b><br/>
     1.Arduino 1.8.9<br/>
     2.扩展板引用地址配置成: https:dl.espressif.com/dl/package_esp32_dev_index.json<br/>
