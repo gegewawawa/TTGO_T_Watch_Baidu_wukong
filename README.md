@@ -1,3 +1,10 @@
+
+这个软件项目做了二个，硬件都是ESP32+INMP441 I2S 麦克风 <br/>
+TTGO_T_Watch是电话手表形态，组装性更好，价格略贵一点. 动手能力强的直接买一块ESP32开发板及I2S 麦克风一样可以玩 <br/>
+两项目地址分别是: <br/>
+https://github.com/lixy123/ESP32_Baidu_wukong/ <br/>
+https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/ <br/>
+<br/>
 <b>程序功能：</b> <br/>
  声音监听器。监听周围的声音，并识别成文字。识别的文字发给树莓派制作的智能音箱wukong<br/>
          每段录音最长20秒,平均一段录音的文字识别时间3-25秒，取决于网络速度<br/>
