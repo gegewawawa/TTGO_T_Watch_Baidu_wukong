@@ -11,13 +11,13 @@ https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/ <br/>
   <br/>
 <b>硬件：</b> <br/>
     TTGO_T_Watch 主板自带有8M PSRAM, 扩展板有多种，有一种扩展板带INMP441 I2S 麦克风录入芯片, 极适合处理语音,就用此扩展板做开发用.<br/>
-         源码硬件资料: https:github.com/LilyGO/TTGO-T-Watch<br/>
-         介绍指南:          https:t-watch-document-en.readthedocs.io/en/latest/index.html<br/>
-         玩家对其介绍:   https:www.instructables.com/id/TTGO-T-Watch/<br/>
+         源码硬件资料: https://github.com/LilyGO/TTGO-T-Watch<br/>
+         介绍指南:          https://t-watch-document-en.readthedocs.io/en/latest/index.html<br/>
+         玩家对其介绍:   https://www.instructables.com/id/TTGO-T-Watch/<br/>
  <br/>
 <b>编译环境:</b><br/>
     1.Arduino 1.8.9<br/>
-    2.扩展板引用地址配置成: https:dl.espressif.com/dl/package_esp32_dev_index.json<br/>
+    2.扩展板引用地址配置成: https://dl.espressif.com/dl/package_esp32_dev_index.json<br/>
     3.安装： 安装esp32的官方开发包 esp32 by Espressif Systems 版本 1.03-rc1<br/>
     4.开发板选择: TTGO T-WATCH, PSRAM选择Enabled<br/>
     5.Arduino选好开发板，设置完PSRAM,端口号后就可以连接esp32烧写固件了.<br/>
@@ -33,7 +33,7 @@ https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/ <br/>
       这两个参数需要注册百度语音服务,在如下网址获取 http:yuyin.baidu.com<br/>
       默认用了wukong 软件编写人免费提供的百度账号, 建议使用自己的百度语音账户<br/>
     C.wukong交互配置<br/>
-      参数含义不理解参考： https:wukong.hahack.com/#/api   发起对话协议<br/>
+      参数含义不理解参考： https://wukong.hahack.com/#/api   发起对话协议<br/>
       report_address 装有wukong的树莓派IP （必须设置）<br/>
       report_url  对话协议的URL地址 (不需要调整)<br/>
       validate    wukong鉴权码 （必须设置，并与wukong软件配置的鉴权码一致）<br/>
@@ -43,8 +43,8 @@ https://github.com/lixy123/TTGO_T_Watch_Baidu_wukong/ <br/>
 <br/>
   ################# 树莓派 #################################<br/>
   树莓派安装有wukong软件，端口号5000<br/>
-  软件地址:  https:github.com/wzpan/wukong-robot<br/>
-  API协议:  https:wukong.hahack.com/#/api   发起对话协议<br/>
+  软件地址:  https://github.com/wzpan/wukong-robot<br/>
+  API协议:  https://wukong.hahack.com/#/api   发起对话协议<br/>
   程序的原理是ESP32识别出文字后传给树莓派运行的wukong智能音箱,并进行语音交互，<br/>
   必须树莓派提前运行wukong智能音箱软件 <br/>
 <br/>
